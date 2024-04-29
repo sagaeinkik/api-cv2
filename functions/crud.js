@@ -12,7 +12,7 @@ async function getAllJobs(req, res) {
         details: '',
     };
     try {
-        let response = await Job.find({});
+        let response = await Job.find({}).sort({ startDate: -1 });
 
         //Om det är en tom array, kör 404 not found
         if (!response || response.length < 1) {
