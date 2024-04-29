@@ -1,10 +1,10 @@
-# CV-API 2
+# API-CV 2
 
 Av S.E.K för DT207G
 
 ## Information
 
-API:et använder MongoDB som databashanterare och har MongoDB Atlas som host. Det är framtaget med NodeJS/Express och använde Mongoose istället för MongoDB för framtagning.  
+API:et använder MongoDB som databashanterare. Det är framtaget med NodeJS/Express och använde Mongoose istället för MongoDB för framtagning.  
 Dotenv har använts för att dölja variabler med känslig information. De är:
 
 ```
