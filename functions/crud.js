@@ -77,7 +77,9 @@ async function getAJobTitle(req, res) {
     let decodedTitle = decodeURIComponent(title);
     try {
         //Möjliggör sök efter både strängar med gemener och med stor bokstav först med hjälp av Regexp
-        let result = await Job.find({ title: { $regex: new RegExp('^' + decodedTitle, 'i') } });
+        let result = await Job.find({
+            title: { $regex: new RegExp('^' + decodedTitle, 'i') },
+        });
 
         if (!result || result.length < 1) {
             errors.https_response.message = 'Not found';
