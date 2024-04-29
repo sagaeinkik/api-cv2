@@ -30,14 +30,7 @@ mongoose
 app.get('/', async (req, res) => {
     res.json({
         message:
-            'Välkommen till mitt API för CV:n. Du kommer behöva skriva /api innan din sökväg. Här kommer jag skriva mer information om API:et senare. ',
-    });
-});
-
-app.get('/api', async (req, res) => {
-    res.json({
-        message:
-            'Välkommen till mitt API för CV:n. Här kommer jag skriva mer information om API:et senare. ',
+            'Välkommen till mitt API för CV:n. Instruktioner för användning hittar du på https://github.com/sagaeinkik/api-cv2 eller testa att lägg till /api/cv i slutet på denna webbadress.',
     });
 });
 
