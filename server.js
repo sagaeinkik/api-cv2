@@ -3,7 +3,6 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 require('dotenv').config();
-//Den krävde mappnamnet på projektet för att fungera av någon anledning
 const apiRouter = require('./routes/apiroutes');
 
 //Port
