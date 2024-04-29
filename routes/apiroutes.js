@@ -1,5 +1,4 @@
 const express = require('express');
-/* const Job = require('../models/jobSchema'); */
 const apiRouter = express.Router();
 //Importera funktionerna från CRUD
 const {
