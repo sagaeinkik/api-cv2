@@ -4,10 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 require('dotenv').config();
 //Den krävde mappnamnet på projektet för att fungera av någon anledning
-const apiRouter = require('../mongo-api/routes/apiroutes');
-
-//Model
-/* const Job = require('../mongo-api/models/jobSchema'); */
+const apiRouter = require('./routes/apiroutes');
 
 //Port
 const port = process.env.PORT || 3000;
