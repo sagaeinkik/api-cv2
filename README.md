@@ -56,3 +56,5 @@ Resultat:
   ]
 }
 ```
+
+En testversion av API:et finns här: https://api-cv2.onrender.com/api/cv
